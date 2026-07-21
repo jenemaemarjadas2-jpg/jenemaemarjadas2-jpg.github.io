@@ -20,12 +20,6 @@
             padding:60px 20px;
         }
 
-        img{
-            width:180px;
-            border-radius:50%;
-            margin-top:20px;
-        }
-
         section{
             max-width:900px;
             margin:auto;
@@ -39,7 +33,6 @@
             color:white;
             text-decoration:none;
             border-radius:8px;
-            margin-top:20px;
         }
 
         footer{
