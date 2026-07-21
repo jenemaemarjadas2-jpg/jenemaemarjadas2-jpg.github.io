@@ -1,91 +1,51 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jene Mae Marjadas | Quality Analyst</title>
+JM
+About
+Career
+Skills
+Experience
+Contact
+QUALITY ANALYST
 
-    <style>
-        body{
-            font-family:Arial,sans-serif;
-            margin:0;
-            background:#f5f7fb;
-            color:#222;
-            text-align:center;
-        }
+Jene Mae
+Marjadas
+Customer Experience
+Technical Support
+Quality Assurance
+Helping organizations improve customer experience through quality monitoring, technical expertise, coaching, and continuous process improvement.
 
-        header{
-            background:#0B2545;
-            color:white;
-            padding:60px 20px;
-        }
+Download Resume Contact Me
+Jene Mae Marjadas
+About Me
+I am a Quality Analyst with experience in technical support, customer retention, and quality assurance. My career progression reflects my commitment to continuous learning, customer excellence, and operational improvement. I specialize in quality evaluations, coaching, technical troubleshooting, documentation, and process improvement while maintaining exceptional customer experience.
 
-        img{
-            width:180px;
-            border-radius:50%;
-            margin-top:20px;
-        }
+Career Journey
+Retention Representative
+Customer Retention
+Billing Support
+Refund Processing
 
-        section{
-            max-width:900px;
-            margin:auto;
-            padding:50px 20px;
-        }
+Technical Support Representative
+TV Troubleshooting
+Warranty
+Technical Diagnostics
 
-        .btn{
-            display:inline-block;
-            padding:12px 24px;
-            background:#0B2545;
-            color:white;
-            text-decoration:none;
-            border-radius:8px;
-            margin-top:20px;
-        }
+Quality Analyst
+Call Monitoring
+Coaching
+Performance Evaluation
 
-        footer{
-            background:#0B2545;
-            color:white;
-            padding:20px;
-        }
-    </style>
+Professional Skills
+Customer Service
+Quality Assurance
+Technical Support
+Coaching
+Process Improvement
+Documentation
+Let's Connect
+ Email
+jenemaemarjadas2@gmail.com
 
-</head>
+ Phone
+0993 210 6877
 
-<body>
-
-<header>
-
-<h1>Jene Mae Marjadas</h1>
-
-<h2>Quality Analyst</h2>
-
-<p>Customer Experience • Technical Support • Process Improvement</p>
-
-</header>
-
-<section>
-
-<h2>About Me</h2>
-
-<p>
-Results-oriented Quality Analyst with experience in Customer Service,
-Technical Support, Quality Assurance, Coaching, and Process Improvement.
-</p>
-
-<h2>Contact</h2>
-
-<p>Email: jenemaemarjadas2@gmail.com</p>
-
-<p>Phone: 0993 210 6877</p>
-
-<a class="btn" href="#">Download Resume</a>
-
-</section>
-
-<footer>
-
-© 2025 Jene Mae Marjadas
-
-</footer>
-
-</body>
-</html>
+© 2026 Jene Mae Marjadas
