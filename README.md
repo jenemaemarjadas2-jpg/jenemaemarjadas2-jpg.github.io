@@ -1,40 +1,91 @@
-<header class="hero">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jene Mae Marjadas | Quality Analyst</title>
 
-    <div class="hero-text">
+    <style>
+        body{
+            font-family:Arial,sans-serif;
+            margin:0;
+            background:#f5f7fb;
+            color:#222;
+            text-align:center;
+        }
 
-        <span class="badge">QUALITY ANALYST</span>
+        header{
+            background:#0B2545;
+            color:white;
+            padding:60px 20px;
+        }
 
-        <h1>Jene Mae Marjadas</h1>
+        img{
+            width:180px;
+            border-radius:50%;
+            margin-top:20px;
+        }
 
-        <h2>
-            Customer Experience • Technical Support • Quality Assurance
-        </h2>
+        section{
+            max-width:900px;
+            margin:auto;
+            padding:50px 20px;
+        }
 
-        <p>
-            Results-oriented Quality Analyst with experience in customer service,
-            technical support, coaching, and process improvement. Passionate about
-            delivering exceptional customer experiences through quality monitoring,
-            continuous improvement, and collaborative leadership.
-        </p>
+        .btn{
+            display:inline-block;
+            padding:12px 24px;
+            background:#0B2545;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            margin-top:20px;
+        }
 
-        <div class="hero-buttons">
+        footer{
+            background:#0B2545;
+            color:white;
+            padding:20px;
+        }
+    </style>
 
-            <a href="#about" class="btn primary">
-                Learn More
-            </a>
+</head>
 
-            <a href="assets/resume.pdf" class="btn secondary" download>
-                Download Resume
-            </a>
+<body>
 
-        </div>
+<header>
 
-    </div>
+<h1>Jene Mae Marjadas</h1>
 
-    <div class="hero-image">
+<h2>Quality Analyst</h2>
 
-        <img src="assets/profile.png" alt="Jene Mae Marjadas">
-
-    </div>
+<p>Customer Experience • Technical Support • Process Improvement</p>
 
 </header>
+
+<section>
+
+<h2>About Me</h2>
+
+<p>
+Results-oriented Quality Analyst with experience in Customer Service,
+Technical Support, Quality Assurance, Coaching, and Process Improvement.
+</p>
+
+<h2>Contact</h2>
+
+<p>Email: jenemaemarjadas2@gmail.com</p>
+
+<p>Phone: 0993 210 6877</p>
+
+<a class="btn" href="#">Download Resume</a>
+
+</section>
+
+<footer>
+
+© 2025 Jene Mae Marjadas
+
+</footer>
+
+</body>
+</html>
