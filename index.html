@@ -1,290 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jene Mae Marjadas | Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jene Mae Marjadas | Portfolio</title>
 
-  <meta
-    name="description"
-    content="Portfolio of Jene Mae Marjadas — IT graduate, web developer, and UI/UX enthusiast creating modern digital experiences."
-  />
+    <meta name="description"
+        content="Portfolio of Jene Mae Marjadas - Quality Analyst, IT Professional, and Web Developer.">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  />
+    <link rel="stylesheet" href="styles.css">
 
-  <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/your-kit.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-  <div class="cursor-glow"></div>
-  <div class="scroll-progress"></div>
 
-  <header class="header">
-    <div class="container nav">
-      <a href="#home" class="logo">JM</a>
+    <!-- Navigation -->
 
-      <nav class="nav-links" id="navLinks">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
-      </nav>
+    <header>
 
-      <div class="nav-actions">
-        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
-          🌙
-        </button>
+        <nav class="navbar">
 
-        <button class="menu-btn" id="menuBtn" aria-label="Open menu">
-          ☰
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-bg">
-        <span class="blob blob-1"></span>
-        <span class="blob blob-2"></span>
-        <span class="blob blob-3"></span>
-      </div>
-
-      <div class="container hero-content">
-        <div class="hero-text reveal">
-          <p class="eyebrow">👋 Hello, I'm</p>
-          <h1>
-            Jene Mae <span class="gradient-text">Marjadas</span>
-          </h1>
-
-          <p class="hero-subtitle">
-            Creating beautiful, responsive, and user-focused digital experiences
-            through clean code and thoughtful design.
-          </p>
-
-          <div class="hero-tags">
-            <span>IT Graduate</span>
-            <span>Web Developer</span>
-            <span>UI/UX Enthusiast</span>
-          </div>
-
-          <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
-            <a href="#contact" class="btn btn-secondary">Contact Me</a>
-          </div>
-        </div>
-
-        <div class="hero-card reveal">
-          <div class="glass-card">
-            <div class="status">
-              <span class="status-dot"></span>
-              Available for opportunities
+            <div class="logo">
+                Jene Mae
             </div>
 
-            <div class="profile">
-              <div class="profile-avatar">JM</div>
-              <div>
-                <h3>Jene Mae Marjadas</h3>
-                <p>Front-End Developer</p>
-              </div>
-            </div>
+            <ul class="nav-links">
 
-            <div class="mini-stats">
-              <div>
-                <strong>10+</strong>
-                <span>Projects</span>
-              </div>
-              <div>
-                <strong>3+</strong>
-                <span>Technologies</span>
-              </div>
-              <div>
-                <strong>100%</strong>
-                <span>Responsive</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+                <li><a href="#home">Home</a></li>
 
-    <section class="section" id="about">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="section-label">About Me</p>
-          <h2>Passionate about building meaningful digital experiences</h2>
-        </div>
+                <li><a href="#about">About</a></li>
 
-        <div class="about-grid">
-          <div class="about-card reveal">
-            <h3>My Story</h3>
-            <p>
-              I enjoy turning ideas into responsive, accessible, and visually engaging
-              web experiences. My goal is to build software that solves real-world
-              problems while continuously improving my skills in modern web development.
-            </p>
-          </div>
+                <li><a href="#experience">Experience</a></li>
 
-          <div class="about-card reveal">
-            <h3>What I Focus On</h3>
-            <ul class="check-list">
-              <li>Responsive web design</li>
-              <li>Clean and maintainable code</li>
-              <li>User-centered interfaces</li>
-              <li>Continuous learning</li>
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
             </ul>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <section class="section section-alt" id="skills">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="section-label">Skills</p>
-          <h2>Technologies I work with</h2>
-        </div>
+        </nav>
 
-        <div class="skills-grid">
-          <div class="skill-card reveal">
-            <div class="skill-icon">💻</div>
-            <h3>Frontend</h3>
-            <p>HTML5, CSS3, JavaScript, React</p>
-          </div>
+    </header>
 
-          <div class="skill-card reveal">
-            <div class="skill-icon">🗄️</div>
-            <h3>Backend</h3>
-            <p>PHP, MySQL, Node.js</p>
-          </div>
+    <!-- Hero -->
 
-          <div class="skill-card reveal">
-            <div class="skill-icon">🛠️</div>
-            <h3>Tools</h3>
-            <p>Git, GitHub, Figma, VS Code</p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section id="home" class="hero">
 
-    <section class="section" id="projects">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="section-label">Projects</p>
-          <h2>Featured work</h2>
-        </div>
+        <div class="hero-content">
 
-        <div class="projects-grid">
-          <article class="project-card reveal">
-            <div class="project-image">Portfolio Website</div>
-            <div class="project-content">
-              <div class="project-tags">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>JavaScript</span>
-              </div>
+            <p class="greeting">
+                Hello, I'm
+            </p>
 
-              <h3>Personal Portfolio</h3>
+            <h1>
+                Jene Mae Marjadas
+            </h1>
 
-              <p>
-                A modern responsive portfolio showcasing projects, skills, and
-                professional experience with smooth animations and a premium UI.
-              </p>
+            <h2>
+                Quality Analyst | IT Professional | Web Developer
+            </h2>
 
-              <div class="project-links">
-                <a href="#" class="project-link">Live Demo ↗</a>
-                <a href="https://github.com/jenemaemarjadas2-jpg" target="_blank" class="project-link">GitHub ↗</a>
-              </div>
+            <p>
+
+                Passionate about creating exceptional customer experiences while
+                building modern and responsive web applications.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn">
+                    View My Work
+                </a>
+
+                <a href="#contact" class="btn-outline">
+                    Contact Me
+                </a>
+
             </div>
-          </article>
 
-          <article class="project-card reveal">
-            <div class="project-image">Future Project</div>
-            <div class="project-content">
-              <div class="project-tags">
-                <span>React</span>
-                <span>API</span>
-                <span>UI/UX</span>
-              </div>
-
-              <h3>Next Project</h3>
-
-              <p>
-                Add your next featured project here. This card is ready for screenshots,
-                descriptions, and live links.
-              </p>
-
-              <div class="project-links">
-                <a href="#" class="project-link">Coming Soon</a>
-              </div>
-            </div>
-          </article>
         </div>
-      </div>
+
     </section>
 
-    <section class="section section-alt" id="education">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="section-label">Education</p>
-          <h2>My journey</h2>
+    <!-- About -->
+
+    <section id="about">
+
+        <div class="container">
+
+            <h2>
+                About Me
+            </h2>
+
+            <p>
+
+                I am an Information Technology professional with years of
+                experience in Technical Support, Customer Retention,
+                and Quality Assurance.
+
+            </p>
+
+            <p>
+
+                My career has allowed me to develop strong analytical,
+                communication, and problem-solving skills while helping
+                customers resolve technical issues, retain subscriptions,
+                process payments, and improve overall customer experience.
+
+            </p>
+
+            <p>
+
+                Currently, I work as a Quality Analyst where I evaluate
+                customer interactions, coach teams, analyze performance,
+                and identify opportunities for continuous improvement.
+
+            </p>
+
+            <p>
+
+                Alongside my professional career, I continue expanding
+                my knowledge in web development and modern technologies
+                to create user-friendly digital experiences.
+
+            </p>
+
         </div>
 
-        <div class="timeline">
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <span class="timeline-year">2026</span>
-              <h3>Bachelor of Science in Information Technology</h3>
-              <p>Graduated with a strong foundation in software development and information systems.</p>
-            </div>
-          </div>
-
-          <div class="timeline-item reveal">
-            <div class="timeline-dot"></div>
-            <div class="timeline-content">
-              <span class="timeline-year">Present</span>
-              <h3>Continuous Learning</h3>
-              <p>Exploring modern web technologies, UI/UX design, and front-end development best practices.</p>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section class="section contact" id="contact">
-      <div class="container">
-        <div class="contact-card reveal">
-          <p class="section-label">Contact</p>
-          <h2>Let's build something amazing together</h2>
+    <!-- Experience -->
 
-          <p class="contact-text">
-            I'm open to internships, freelance projects, collaborations, and new
-            opportunities. Feel free to reach out.
-          </p>
+    <section id="experience">
 
-          <div class="contact-links">
-            <a href="mailto:your-email@example.com">📧 Email</a>
-            <a href="https://github.com/jenemaemarjadas2-jpg" target="_blank">🐱 GitHub</a>
-            <a href="#">💼 LinkedIn</a>
-          </div>
+        <div class="container">
+
+            <h2>
+                Professional Experience
+            </h2>
+
+            <div class="experience-card">
+
+                <h3>
+                    Quality Analyst
+                </h3>
+
+                <p>
+
+                    Monitor customer interactions, conduct quality evaluations,
+                    coach representatives, analyze performance trends,
+                    and improve operational excellence.
+
+                </p>
+
+            </div>
+
+            <div class="experience-card">
+
+                <h3>
+                    Retention Representative
+                </h3>
+
+                <p>
+
+                    Assisted customers with subscription concerns,
+                    processed payments and refunds,
+                    and built long-term customer relationships.
+
+                </p>
+
+            </div>
+
+            <div class="experience-card">
+
+                <h3>
+                    Technical Support Representative
+                </h3>
+
+                <p>
+
+                    Diagnosed and resolved technical issues while providing
+                    outstanding customer support and troubleshooting solutions.
+
+                </p>
+
+            </div>
+
         </div>
-      </div>
+
     </section>
-  </main>
 
-  <footer class="footer">
-    <div class="container footer-content">
-      <p>© 2026 Jene Mae Marjadas. Crafted with passion and code.</p>
-      <a href="#home" class="back-to-top">Back to top ↑</a>
-    </div>
-  </footer>
+    <!-- Skills -->
 
-  <script src="script.js"></script>
+    <section id="skills">
+
+        <div class="container">
+
+            <h2>
+                Skills
+            </h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+
+                    HTML5
+
+                </div>
+
+                <div class="skill-card">
+
+                    CSS3
+
+                </div>
+
+                <div class="skill-card">
+
+                    JavaScript
+
+                </div>
+
+                <div class="skill-card">
+
+                    Git
+
+                </div>
+
+                <div class="skill-card">
+
+                    GitHub
+
+                </div>
+
+                <div class="skill-card">
+
+                    Responsive Design
+
+                </div>
+
+                <div class="skill-card">
+
+                    Technical Troubleshooting
+
+                </div>
+
+                <div class="skill-card">
+
+                    Customer Experience
+
+                </div>
+
+                <div class="skill-card">
+
+                    Quality Assurance
+
+                </div>
+
+                <div class="skill-card">
+
+                    Process Improvement
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects">
+
+        <div class="container">
+
+            <h2>
+                Featured Projects
+            </h2>
+
+            <div class="projects-grid">
+
+                <div class="project-card">
+
+                    <h3>
+                        Personal Portfolio
+                    </h3>
+
+                    <p>
+
+                        A modern responsive portfolio built using
+                        HTML, CSS, and JavaScript.
+
+                    </p>
+
+                    <a href="#">
+                        Live Demo
+                    </a>
+
+                    <a href="#">
+                        GitHub
+                    </a>
+
+                </div>
+
+                <div class="project-card">
+
+                    <h3>
+                        Future Project
+                    </h3>
+
+                    <p>
+
+                        Add your next project here.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <div class="container">
+
+            <h2>
+                Let's Connect
+            </h2>
+
+            <p>
+
+                I'm always open to discussing opportunities,
+                collaborations, and exciting projects.
+
+            </p>
+
+            <a href="mailto:your@email.com" class="btn">
+
+                Email Me
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <p>
+
+            © 2026 Jene Mae Marjadas
+
+        </p>
+
+    </footer>
+
 </body>
+
 </html>
